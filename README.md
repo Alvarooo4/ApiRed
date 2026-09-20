@@ -24,3 +24,6 @@ Para solucionar esto, el proyecto ApiRed propone un sistema en la nube que autom
 
     **Perspectiva del Desarrollador (La solución):**
     ![Tarjeta del desarrollador](Desarrollador.jpeg)
+
+4. CONFIGURACIÓN
+Para el desarrollo inicial de este proyecto se ha llevado a cabo la configuración del entorno local utilizando Git Bash en Windows y se ha establecido la conexión segura con GitHub mediante claves SSH.
