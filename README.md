@@ -1,29 +1,34 @@
 # ApiRed
 
-1. EL PROBLEMA
-Un apicultor se enfrenta a un problema que está afectando a su producción. Hasta hace unos años, era posible anticipar en qué mes florecía cada planta siguiendo el calendario tradicional. Sin embargo, el cambio climático ha vuelto estos ciclos impredecibles, provocando picos de calor inusuales en invierno o sequías prolongadas en primavera.
+## Problema a tratar
+Hasta hace unos años, los apicultores podían anticipar en qué mes florecía cada planta siguiendo el calendario normal. Sin embargo, el cambio climático está provocando picos de calor inusuales en invierno o sequías prolongadas en primavera. Actualmente, la única forma de saber si el campo tiene floración disponible es desplazarse físicamente hasta el colmenar. Estos viajes a ciegas suponen un gasto innecesario de tiempo y combustible, y si se llega tarde, las colmenas pueden de quedarse sin alimento.
 
-El problema principal es que, actualmente, la única forma de saber si el campo tiene floración disponible es desplazarse físicamente hasta el colmenar. Estos viajes a ciegas suponen un gasto innecesario de tiempo y combustible, y si la estimación falla y se llega tarde, las colmenas corren el riesgo de quedarse sin alimento.
+## Conocimiento personal
+Al vivir en Chillón, un pueblo con un entorno rural, conozco este problema de primera mano porque mi padre es apicultor. Veo a menudo cómo se enfrenta a este problema debido a estos cambios térmicos, por lo que se ve obligado a asumir gastos innecesarios para ir a comprobar los colmenares físicamente. Además, puedo comprobar cómo esta mismo problema climático está afectando a otros sectores de la agricultura y la ganadería en mi entorno.
 
-2. LA SOLUCIÓN
-Para solucionar esto, el proyecto ApiRed propone un sistema en la nube que automatice el seguimiento del campo de la siguiente manera:
+## ¿Cómo se obtienen los datos? 
+Toda la información (temperaturas, precipitaciones y previsiones de las distintas zonas) se extrae conectando el sistema a portales de datos públicos y APIs de centros meteorológicos, como por ejemplo AEMET u OpenWeather.
 
-    - Extraer datos meteorológicos (temperatura, precipitaciones) desde portales de datos públicos.
+## ¿Por qué requiere una lógica de negocio y no solo almacenamiento?
+El sistema no se limita a guardar y mostrar el tiempo, sino que aplica una lógica de procesamiento sobre los datos obtenidos para:
+- Calcular variables como el calor acumulado y la humedad de esa ubicación concreta.
+- Analizar el calor acumulado por las plantas y la falta de humedad del terreno.
+- Generar una estimación que prediga si la floración se va a adelantar o retrasar respecto al ciclo habitual.
+- Validar y alertar sobre el riesgo de escasez de néctar para las colmenas en las semanas siguientes.
 
-    - Calcular variables como el calor acumulado y el estrés hídrico de esa ubicación concreta.
+## Por qué requiere un despliegue en la nube
+Porque el sistema procesa continuamente el clima de distintas zonas geográficas, y un apicultor necesita conocer el estado de floración desde su casa antes de iniciar un viaje largo con sus colmenas. Sin un entorno en la nube que cruce constantemente esa información y genere la predicción, el apicultor no podrá saber si debe realizar ese desplazamiento.
 
-    - Analizar el calor acumulado por las plantas y la falta de humedad del terreno en esa ubicación concreta.
+## Tarjetas de rol
+A continuación se muestran las imágenes de los roles asignados para el desarrollo del proyecto:
 
-    - Generar una estimación que prediga si la floración se va a adelantar o retrasar.
+**Perspectiva del Cliente (El problema):**
+![Tarjeta del cliente](media/Cliente.jpeg)
 
-    - Validar el riesgo de escasez de néctar para las colmenas en las semanas siguientes.
+**Perspectiva del Desarrollador (La solución):**
+![Tarjeta del desarrollador](media/Desarrollador.jpeg)
 
-3. TARJETAS
-    **Perspectiva del Cliente (El problema):**
-    ![Tarjeta del cliente](Cliente.jpeg)
+## Configuración
+La configuración del entorno local se encuentra detallada paso a paso en el siguiente enlace:
 
-    **Perspectiva del Desarrollador (La solución):**
-    ![Tarjeta del desarrollador](Desarrollador.jpeg)
-
-4. CONFIGURACIÓN
-Para el desarrollo inicial de este proyecto se ha llevado a cabo la configuración del entorno local utilizando Git Bash en Windows y se ha establecido la conexión segura con GitHub mediante claves SSH.
+[Ver detalles y capturas de la configuración](doc/configuracion.md)
