@@ -20,6 +20,6 @@ Programar el motor de la aplicación que evaluará el Índice de Viabilidad Flor
 Es el cálculo que determina si una zona concreta va a tener alimento suficiente para las abejas. El sistema observa los litros de lluvia o la temperatura de los archivos JSON/CSV y los cruza con las reglas lógicas que hemos desarrollado con la ayuda de un profesiional de la apicultura. Por tanto, evalúa si el agua y el calor se han dado en el momento y cantidad exacta que necesita cada tipo de flor para producir néctar.
 
 ### Qué se entrega
-- Funciones que crucen la meteorología de la zona con los requisitos de las flores.
-- Un conjunto de tests automáticos integrados en el código.
-- El hito se dará por superado si las pruebas confirman que el sistema evalúa la viabilidad correctamente.
+- El código empaquetado como un módulo, para que cualquier persona pueda descargarlo, instalarlo y usarlo fácilmente.
+- Una serie de tests automáticos integrados en el código para validar que todos los cálculos y procesos funcionan de la manera adecuada.
+- El hito estará superado cuando los tests se ejecuten automáticamente al subir el código a GitHub y nos confirmen que todo está correctamente.
