@@ -35,10 +35,10 @@ Porque el sistema procesa continuamente el clima de distintas zonas geográficas
 A continuación se muestran las imágenes de los roles asignados para el desarrollo del proyecto:
 
 **Perspectiva del Cliente (El problema):**
-![Tarjeta del cliente](media/Cliente.jpeg)
+ * [Tarjeta del cliente](media/Cliente.jpeg)
 
 **Perspectiva del Desarrollador (La solución):**
-![Tarjeta del desarrollador](media/Desarrollador.jpeg)
+ * [Tarjeta del desarrollador](media/Desarrollador.jpeg)
 
 ## Configuración
 La configuración del entorno local se encuentra detallada paso a paso en el siguiente enlace:
@@ -48,7 +48,7 @@ La configuración del entorno local se encuentra detallada paso a paso en el sig
 ## Objetivo 1: Planificación Ágil y PMV
 Toda la documentación sobre el diseño del PMV y la planificación del proyecto se ha organizado en los siguientes documentos:
 
-* [Personas](docs/objetivos/objetivo-1/personas.md)
-* [User Journeys](docs/objetivos/objetivo-1/user-journeys.md)
-* [Historias de Usuario](docs/objetivos/objetivo-1/historias-usuarios.md)
-* [Milestones](docs/objetivos/objetivo-1/milestones.md)
+* [Personas](docs/personas.md)
+* [User Journeys](docs/user-journeys.md)
+* [Historias de Usuario](docs/historias-usuarios.md)
+* [Milestones](docs/milestones.md)
