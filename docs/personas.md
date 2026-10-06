@@ -1,5 +1,4 @@
 # Personas
-
 ## Manuel
 Apicultor profesional con base en Chillón. Su principal preocupación es la rentabilidad de la colmena en el proceso de producir miel. Necesita herramientas que le permitan tomar decisiones seguras sobre dónde mover sus colmenas sin arriesgar tiempo ni gasoil en viajes no productivos por la falta de floración.
 

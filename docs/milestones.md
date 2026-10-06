@@ -1,25 +1,24 @@
-# Milestones
-Definen qué quiero entregar, no cómo entregarlo.
-
-## Milestone 0: Modelo inicial de dominio
+## Milestone 0: Modelo inicial del dominio
 
 ### Objetivo
-Construir la base estructural del problema apícola apoyándose en la HU001.
+Definir en código los conceptos clave del entorno apícola que sacamos de la [HU001] y [HU002], creando las estructuras de datos iniciales.
 
 ### Qué se entrega
-- Los elementos esenciales del entorno (parcelas, clima, plantas) plasmados en código limpio.
-- Únicamente estructuras de datos, dejando fuera por ahora cualquier cálculo o regla de negocio.
-- Un archivo en la carpeta docs/ que explique el diseño (DDD), aclarando cuáles son las entidades, los objetos valor y cómo se relacionan.
-- Una pequeña justificación sobre las decisiones tomadas durante este diseño.
+- Los conceptos representados directamente en los ficheros de código del proyecto.
+- Las decisiones de diseño, que se irán debatiendo y registrando paso a paso en los issues del repositorio.
+- Los commits con los avances de código, enlazados siempre a la issue en la que se está trabajando.
 
-## Milestone 1: Lógica de negocio y cálculo de viabilidad
+### Validación
+- El hito se da por cerrado cuando se puede seguir el hilo completo del trabajo en GitHub. Para ello, hay que comprobar que el código subido va atado a un commit, que ese commit resuelve una issue concreta, y que esa issue viene directamente de los problemas de la [HU001] o [HU002].
+
+## Milestone 1: Lógica de negocio y pruebas automáticas
 
 ### Objetivo
-Programar el motor de la aplicación que evaluará el Índice de Viabilidad Floral.
-**Definición del Índice de Viabilidad Floral (IVF):**
-Es el cálculo que determina si una zona concreta va a tener alimento suficiente para las abejas. El sistema observa los litros de lluvia o la temperatura de los archivos JSON/CSV y los cruza con las reglas lógicas que hemos desarrollado con la ayuda de un profesiional de la apicultura. Por tanto, evalúa si el agua y el calor se han dado en el momento y cantidad exacta que necesita cada tipo de flor para producir néctar.
+Desarrollar el motor principal del proyecto (la lógica que calcula el [Índice de Viabilidad Floral](docs/conceptos.md) que necesitan la [HU001] y [HU002]) usando el hito anterior, y montar los tests automáticos.
 
 ### Qué se entrega
-- El código empaquetado como un módulo, para que cualquier persona pueda descargarlo, instalarlo y usarlo fácilmente.
-- Una serie de tests automáticos integrados en el código para validar que todos los cálculos y procesos funcionan de la manera adecuada.
-- El hito estará superado cuando los tests se ejecuten automáticamente al subir el código a GitHub y nos confirmen que todo está correctamente.
+- El código con la lógica central ya implementada y lista para funcionar.
+- Una batería de tests automáticos integrada en el repositorio para asegurar que los cálculos hacen lo que deben.
+
+### Validación
+- El hito se da por cerrado con pruebas automáticas. Para ello, los tests deben ejecutarse solos, pasar en verde y estar cada uno asociado al issue que comprueban.

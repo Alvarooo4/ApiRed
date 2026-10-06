@@ -1,6 +1,5 @@
-# Jornadas de usuario
-
-Las siguientes jornadas muestran el uso esperado de ApiRed una vez que el proyecto esté listo para funcionar. Algunas características (como la comparativa de la Jornada 2) son historias de usuario que se irán añadiendo en los próximos hitos.
+# User Journeys (Viajes del usuario)
+Los siguientes viajes del usuario muestran el uso esperado de ApiRed una vez que el proyecto esté listo para funcionar. Algunas características (como la comparativa del Viaje 2) son historias de usuario que se irán añadiendo en los próximos hitos.
 
 ## Jornada 1: Manuel comprueba la viabilidad del terreno antes de trasladar el colmenar
 

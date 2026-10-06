@@ -42,7 +42,6 @@ A continuación se muestran las imágenes de los roles asignados para el desarro
 
 ## Configuración
 La configuración del entorno local se encuentra detallada paso a paso en el siguiente enlace:
-
 [Ver detalles y capturas de la configuración](doc/configuracion.md)
 
 ## Objetivo 1: Planificación Ágil y PMV
