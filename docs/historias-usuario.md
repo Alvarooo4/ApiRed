@@ -1,5 +1,4 @@
 # Historias de Usuario
-Van con el tag 'user-stories' y cada una se irá resolviendo mediante issues en distintos milestones.
 
 ## [HU001] No sé si un campo tiene las condiciones climáticas adecuadas antes de trasladar mis colmenas
 Como apicultor profesional, no tengo forma de comprobar si la flora de una ubicación específica ha sufrido por la sequía o las olas de calor sin desplazarme físicamente hasta allí, por lo que me arriesgo a hacer viajes a ciegas, perdiendo tiempo y dinero en combustible, o llevando a mis abejas a un lugar sin alimento.
