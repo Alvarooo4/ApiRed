@@ -12,7 +12,7 @@ Arrancar con la resolución del problema planteado en la [HU001], aplicando la m
 ## Milestone 1: Lógica de negocio y pruebas automáticas
 
 ### Objetivo
-Dar el siguiente paso para resolver la [HU001], programando la lógica principal de negocio a partir de lo hecho en el hito anterior y montando la infraestructura de pruebas.
+Dar el siguiente paso para realizar la lógica principal de negocio a partir de lo hecho en el hito anterior y montar la infraestructura de pruebas.
 
 ### Qué se entrega
 - El código fuente con la lógica de negocio ya incorporada.
