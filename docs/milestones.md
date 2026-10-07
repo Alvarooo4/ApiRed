@@ -1,22 +1,19 @@
 ## Milestone 0: Análisis inicial del problema
 
 ### Objetivo
-Arrancar con la resolución del problema planteado en la [HU001], aplicando la metodología de Diseño Guiado por Dominio (DDD) para analizarlo a fondo.
-
-### Qué se entrega
-- El código fuente inicial tras aplicar este proceso de análisis, empaquetado de forma estándar.
+Empezar a darle forma a la [HU001] usando la metodología DDD. En este paso nos centramos en llevar el problema al código, sin entrar en la lógica de negocio.
 
 ### Validación
-- Lo que le da validez a este hito es el proceso que hay detrás. Para comprobarlo, hay que seguir este camino: el código entregado tiene que nacer directamente de los issues derivados de la [HU001], y debe integrarse usando commits que enlacen con el issue exacto que están resolviendo.
+Para dar este hito por superado, se va a comprobar que:
+- Cada issue que abramos sirve para atacar un problema concreto derivado de la [HU001].
+- Todos los problemas contenidos en la [HU001] tienen que estar representados con su propio issue.
+- Cualquier trozo de código que subamos está enlazado directamente al issue que intenta resolver.
+- Cada commit hace referencia o cierra un solo issue.
 
 ## Milestone 1: Lógica de negocio y pruebas automáticas
 
 ### Objetivo
-Dar el siguiente paso para realizar la lógica principal de negocio a partir de lo hecho en el hito anterior y montar la infraestructura de pruebas.
-
-### Qué se entrega
-- El código fuente con la lógica de negocio ya incorporada.
-- Una batería de tests automáticos integrada directamente en el repositorio.
+Aprovechando la base que dejamos montada en el hito cero, ahora sí nos metemos de lleno a programar la lógica principal que soluciona la [HU001]. Lo haremos aplicando principios SOLID y creando las pruebas que verifican dicha lógica[cite: 8].
 
 ### Validación
-- Aquí la validez recae en la comprobación automática. El hito se da por cerrado cuando los tests se lanzan por sí solos en el repositorio, pasan en verde, y cada prueba está vinculada al issue que se encarga de comprobar.
+Aquí la validación la dejamos puramente en manos de la máquina. El hito se considerará cerrado de forma objetiva cuando los tests que comprueban la [HU001] salten solos al subir los cambios, pasen todos en verde y nos confirmen que el código hace exactamente lo que le toca.
