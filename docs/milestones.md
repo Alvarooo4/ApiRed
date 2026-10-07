@@ -1,24 +1,22 @@
-## Milestone 0: Modelo inicial del dominio
+## Milestone 0: Análisis inicial del problema
 
 ### Objetivo
-Definir en código los conceptos clave del entorno apícola que sacamos de la [HU001] y [HU002], creando las estructuras de datos iniciales.
+Arrancar con la resolución del problema planteado en la [HU001], aplicando la metodología de Diseño Guiado por Dominio (DDD) para analizarlo a fondo.
 
 ### Qué se entrega
-- Los conceptos representados directamente en los ficheros de código del proyecto.
-- Las decisiones de diseño, que se irán debatiendo y registrando paso a paso en los issues del repositorio.
-- Los commits con los avances de código, enlazados siempre a la issue en la que se está trabajando.
+- El código fuente inicial tras aplicar este proceso de análisis, empaquetado de forma estándar.
 
 ### Validación
-- El hito se da por cerrado cuando se puede seguir el hilo completo del trabajo en GitHub. Para ello, hay que comprobar que el código subido va atado a un commit, que ese commit resuelve una issue concreta, y que esa issue viene directamente de los problemas de la [HU001] o [HU002].
+- Lo que le da validez a este hito es el proceso que hay detrás. Para comprobarlo, hay que seguir este camino: el código entregado tiene que nacer directamente de los issues derivados de la [HU001], y debe integrarse usando commits que enlacen con el issue exacto que están resolviendo.
 
 ## Milestone 1: Lógica de negocio y pruebas automáticas
 
 ### Objetivo
-Desarrollar el motor principal del proyecto (la lógica que calcula el [Índice de Viabilidad Floral](docs/conceptos.md) que necesitan la [HU001] y [HU002]) usando el hito anterior, y montar los tests automáticos.
+Dar el siguiente paso para resolver la [HU001], programando la lógica principal de negocio a partir de lo hecho en el hito anterior y montando la infraestructura de pruebas.
 
 ### Qué se entrega
-- El código con la lógica central ya implementada y lista para funcionar.
-- Una batería de tests automáticos integrada en el repositorio para asegurar que los cálculos hacen lo que deben.
+- El código fuente con la lógica de negocio ya incorporada.
+- Una batería de tests automáticos integrada directamente en el repositorio.
 
 ### Validación
-- El hito se da por cerrado con pruebas automáticas. Para ello, los tests deben ejecutarse solos, pasar en verde y estar cada uno asociado al issue que comprueban.
+- Aquí la validez recae en la comprobación automática. El hito se da por cerrado cuando los tests se lanzan por sí solos en el repositorio, pasan en verde, y cada prueba está vinculada al issue que se encarga de comprobar.
