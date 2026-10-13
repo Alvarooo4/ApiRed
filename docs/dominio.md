@@ -6,7 +6,7 @@ Documento en el que se extrae el lenguaje ubicuo del problema narrado por [H001]
 
 Apicultor: Persona que trabaja extrayendo la miel de las abejas.
 
-Flora: Conjunto de plantas de una ubicación.
+Flora: Conjunto de flores de una ubicación.
 
 Ubicación Geográfica: Posición en el mapa en forma de coordenadas ¿En qué formato viene dado?
 
@@ -44,32 +44,30 @@ Trashumancia: Desplazamientos periódicos que buscan el lugar con mejor clima y 
 
 Colmenar: Conjunto de colmenas.
 
-Colmena
+Colmena: Estructura en la que viven las abejas y en la que generan la miel.
 
-Campo
+Campo: ¿Ubicación concreta de acceso público dónde se esperan encontrar recursos? ¿o es sinónimo de parcela?
 
-Nave
+Nave: ¿Base principal de operaciones del apicultor?
 
-Plantas
+Cargar: Llenar el camión con el colmenar. ¿Algo más?
 
-Cargar
+Camión: Herramienta de desplazamiento del apicultor.
 
-Camnión
+Coordenadas: ¿Formato en el que se expresan las ubicaciones de parcelas? 
 
-Coordenadas
+Parcela: Recinto con plantas en el que un apilcultor puede colocar su colmenar.
 
-Parcela
+Flores: Conjunto de seres vivos que hay en una parcela que siguen un ciclo de floración en función al cuál generan néctar.
 
-Flor
+Datos Meteorológicos: ¿Sinónimo de datos del clima local?
 
-Datos Meteorológicos
+Viabilidad Floral: Valor numérico que indica aproximadamente la probabilidad de encontrar una flora adecuada para la alimentación de las abejas.
 
-Viabilidad Floral
+Néctar: Alimento natural para las abejas, es generado por las flores en su periodo de floración.
 
-Néctar
+Alimentar abejas Artificialmente: Acción que puede realizar el apicultor, provee a las abejas con el alimento necesario pero cuesta dinero.
 
-Alimentar abejas Artificialmente
+Gasto: Acción que supone una pérdida de dinero.
 
-Gasto
-
-Gasoil
+Gasoil: Recurso necesario para hacer un desplazamiento. Cuesta dinero.
