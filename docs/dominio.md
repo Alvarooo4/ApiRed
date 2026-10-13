@@ -7,6 +7,10 @@ Documento en el que se extrae el lenguaje ubicuo del problema narrado por [HU001
 ### Fenómenos Meteorológicos
 Fenómenos meteorológicos que pueden alterar el ciclo de floración. Aparecen en la HU: Sequía, Ola de Calor y Precipitaciones.
 
+### Gastos
+Acciones o consecuencias de acciones que suponen una pérdida monetaria para el apicultor.
+
+
 Apicultor: Persona que trabaja extrayendo la miel de las abejas.
 
 Flora: Conjunto de flores de una ubicación.
