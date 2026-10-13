@@ -4,14 +4,14 @@ Documento en el que se extrae el lenguaje ubicuo del problema narrado por [HU001
 
 ## Obtenidos de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)
 
-### Fenómenos Metereológicos
-Fenómenos metereológicos que pueden alterar el ciclo de floración. Aparecen en la HU: Sequía, Ola de Calor y Precipitaciones.
+### Fenómenos Meteorológicos
+Fenómenos meteorológicos que pueden alterar el ciclo de floración. Aparecen en la HU: Sequía, Ola de Calor y Precipitaciones.
 
 Apicultor: Persona que trabaja extrayendo la miel de las abejas.
 
 Flora: Conjunto de flores de una ubicación.
 
-Ubicación Geográfica: Posición en el mapa en forma de coordenadas ¿En qué formato viene dado?
+Ubicación Geográfica: Posición en el mapa en forma de coordenadas. ¿En qué formato viene dado?
 
 Desplazamiento: Movimiento del apicultor con un colmenar de una ubicación a otra.
 
@@ -31,7 +31,7 @@ Registro: Documento en el que se almacenan datos sobre el clima local de una ubi
 
 Temperatura: Variable meteorológica que puede alterar el ciclo de floración. 
 
-Heurística de Floración: Reglas que determinan la temperatura y agua idónea de cada planta.
+Heurística de Floración: Reglas que determinan la temperatura y el agua idóneas de cada planta.
 
 ## Obtenidos del [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar) 
 
@@ -43,7 +43,7 @@ Colmenar: Conjunto de colmenas.
 
 Colmena: Estructura en la que viven las abejas y en la que generan la miel.
 
-Campo: ¿Ubicación concreta de acceso público donde se esperan encontrar recursos? ¿o es sinónimo de parcela?
+Campo: ¿Ubicación concreta de acceso público donde se esperan encontrar recursos? ¿O es sinónimo de parcela?
 
 Nave: ¿Base principal de operaciones del apicultor?
 
