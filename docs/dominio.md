@@ -1,6 +1,6 @@
 # Dominio del Problema
 
-Documento en el que se extrae el lenguaje ubicuo del problema narrado por [H001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas).
+Documento en el que se extrae el lenguaje ubicuo del problema narrado por [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas).
 
 ## Obtenidos de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)
 
@@ -46,7 +46,7 @@ Colmenar: Conjunto de colmenas.
 
 Colmena: Estructura en la que viven las abejas y en la que generan la miel.
 
-Campo: ¿Ubicación concreta de acceso público dónde se esperan encontrar recursos? ¿o es sinónimo de parcela?
+Campo: ¿Ubicación concreta de acceso público donde se esperan encontrar recursos? ¿o es sinónimo de parcela?
 
 Nave: ¿Base principal de operaciones del apicultor?
 
@@ -56,15 +56,15 @@ Camión: Herramienta de desplazamiento del apicultor.
 
 Coordenadas: ¿Formato en el que se expresan las ubicaciones de parcelas? 
 
-Parcela: Recinto con plantas en el que un apilcultor puede colocar su colmenar.
+Parcela: Recinto con plantas en el que un apicultor puede colocar su colmenar.
 
-Flores: Conjunto de seres vivos que hay en una parcela que siguen un ciclo de floración en función al cuál generan néctar.
+Flores: Conjunto de seres vivos que hay en una parcela que siguen un ciclo de floración en función del cual generan néctar.
 
 Datos Meteorológicos: ¿Sinónimo de datos del clima local?
 
 Viabilidad Floral: Valor numérico que indica aproximadamente la probabilidad de encontrar una flora adecuada para la alimentación de las abejas.
 
-Néctar: Alimento natural para las abejas, es generado por las flores en su periodo de floración.
+Néctar: Alimento natural para las abejas; es generado por las flores en su periodo de floración.
 
 Alimentar abejas Artificialmente: Acción que puede realizar el apicultor, provee a las abejas con el alimento necesario pero cuesta dinero.
 
