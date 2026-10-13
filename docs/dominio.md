@@ -4,15 +4,14 @@ Documento en el que se extrae el lenguaje ubicuo del problema narrado por [HU001
 
 ## Obtenidos de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)
 
+### Fenómenos Metereológicos
+Fenómenos metereológicos que pueden alterar el ciclo de floración. Aparecen en la HU: Sequía, Ola de Calor y Precipitaciones.
+
 Apicultor: Persona que trabaja extrayendo la miel de las abejas.
 
 Flora: Conjunto de flores de una ubicación.
 
 Ubicación Geográfica: Posición en el mapa en forma de coordenadas ¿En qué formato viene dado?
-
-Sequía: Fenómeno meteorológico que puede alterar el ciclo de floración. 
-
-Ola de Calor: Fenómeno meteorológico que puede alterar el ciclo de floración.
 
 Desplazamiento: Movimiento del apicultor con un colmenar de una ubicación a otra.
 
@@ -29,8 +28,6 @@ Alimento: Recurso que sirve de sustento para las abejas.
 Clima Local: Conjunto de fenómenos meteorológicos que afectan a una ubicación concreta.
 
 Registro: Documento en el que se almacenan datos sobre el clima local de una ubicación concreta.
-
-Precipitaciones: Fenómeno meteorológico que puede alterar el ciclo de floración.
 
 Temperatura: Variable meteorológica que puede alterar el ciclo de floración. 
 
