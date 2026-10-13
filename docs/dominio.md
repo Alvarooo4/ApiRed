@@ -7,8 +7,11 @@ Fenómenos meteorológicos que pueden alterar el ciclo de floración. Aparecen e
 
 ### Gastos
 Acciones o consecuencias de acciones que suponen una pérdida monetaria para el apicultor.
-    - Aparecen en la HU: Combustible
-    - Aparecen en el journey: Alimentar Abejas Artificialmente, Gasoil (sinónimo de Conbustible)
+    - Aparecen en la HU: _Combustible_
+    - Aparecen en el journey: _Alimentar Abejas Artificialmente_, _Gasoil_ (sinónimo de _Conbustible_)
+
+### Alimento
+ Recurso que sirve de sustento para las abejas. Aparecene en el journey _néctar_ y _alimento artificial_.
 
 ## Obtenidos de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)
 
