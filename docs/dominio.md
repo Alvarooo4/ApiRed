@@ -13,6 +13,9 @@ Acciones o consecuencias de acciones que suponen una pérdida monetaria para el 
 ### Alimento
  Recurso que sirve de sustento para las abejas. Aparecene en el journey _néctar_ y _alimento artificial_.
 
+### Ubicaciones
+Lugares determinados por sus ubicaciones geográficas en los que un apicultor puede llevar su colmenar. ¿Aparecen en el journey _campo_, _parcela_ y _nave_? refs #10.
+
 ## Obtenidos de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)
 
 Apicultor: Persona que trabaja extrayendo la miel de las abejas.
@@ -28,8 +31,6 @@ Tiempo de Desplazamiento: Tiempo que tarda el apicultor en realizar un desplazam
 Dinero: Recurso que posee un apicultor y con el que financia, entre otras cosas, los desplazamientos.
 
 Abejas: Ser vivo del que se realiza la explotación en forma de extracción de miel. Requieren de alimento para sobrevivir y producir miel.
-
-Alimento: Recurso que sirve de sustento para las abejas.
 
 Clima Local: Conjunto de fenómenos meteorológicos que afectan a una ubicación concreta.
 
@@ -49,17 +50,11 @@ Colmenar: Conjunto de colmenas.
 
 Colmena: Estructura en la que viven las abejas y en la que generan la miel.
 
-Campo: ¿Ubicación concreta de acceso público donde se esperan encontrar recursos? ¿O es sinónimo de parcela?
-
-Nave: ¿Base principal de operaciones del apicultor?
-
 Cargar: Llenar el camión con el colmenar. ¿Algo más?
 
 Camión: Herramienta de desplazamiento del apicultor.
 
 Coordenadas: ¿Formato en el que se expresan las ubicaciones de parcelas? 
-
-Parcela: Recinto con plantas en el que un apicultor puede colocar su colmenar.
 
 Flores: Conjunto de seres vivos que hay en una parcela que siguen un ciclo de floración en función del cual generan néctar.
 
@@ -67,4 +62,6 @@ Datos Meteorológicos: ¿Sinónimo de datos del clima local?
 
 Viabilidad Floral: Valor numérico que indica aproximadamente la probabilidad de encontrar una flora adecuada para la alimentación de las abejas.
 
-Néctar: Alimento natural para las abejas; es generado por las flores en su periodo de floración.
+_Campo: ¿Ubicación concreta de acceso público donde se esperan encontrar recursos? ¿O es sinónimo de parcela?_
+_Nave: ¿Base principal de operaciones del apicultor?_
+_Parcela: Recinto con plantas en el que un apicultor puede colocar su colmenar._
