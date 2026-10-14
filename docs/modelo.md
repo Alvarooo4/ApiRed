@@ -8,7 +8,6 @@ Ruta, Ubicación, Coordenadas, Desplazamiento, Clima Local, Fenómenos, Registro
 ## Quedan sin mencionar del lenguaje ubicuo:
 Datos Meteorológicos - ¿Sinónimo de Clima? refs #13.
 Gastos - No relevante, el problema es saber si si el índice floral de una ubicación es óptimo, no se intenta reducir los gastos. (deducido del [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar), último párrafo, Manuel va probando ubicaciones hasta encontrar una con el índice floral óptimo, sin tener en cuenta el coste necesario para llegar allí).
-Ubicación Geográfica - Sinónimo de Coordenada.
 Apicultor, 
 Dinero, 
 Trashumancia - No relevante, se considera que todos los desplazamientos realizados por el apicultor son de trashumancia.

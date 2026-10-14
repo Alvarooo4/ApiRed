@@ -7,12 +7,11 @@ Documento en el que se extrae el lenguaje ubicuo del problema narrado por la [HU
 | | | | |
 |---|---|---|---|
 | [Fenómenos y Variables Meteorológicas](#fenómenos-y-variables-meteorológicas) | [Clima Local](#clima-local) | [Datos Meteorológicos](#datos-meteorológicos) | [Registro](#registro) |
-| [Temperatura](#temperatura) | [Gastos](#gastos) | [Ubicaciones](#ubicaciones) | [Ubicación Geográfica](#ubicación-geográfica) |
-| [Coordenadas](#coordenadas) | [Apicultor](#apicultor) | [Dinero](#dinero) | [Ruta](#ruta) |
-| [Desplazamiento](#desplazamiento) | [Trashumancia](#trashumancia) | [Tiempo de Desplazamiento](#tiempo-de-desplazamiento) | [Cargar](#cargar) |
-| [Camión](#camión) | [Viabilidad Floral](#viabilidad-floral) | [Flora](#flora) | [Flor](#flor) |
-| [Heurística de Floración](#heurística-de-floración) | [Colmenar](#colmenar) | [Colmena](#colmena) | [Abejas](#abejas) |
-| [Alimento](#alimento) |  |  |  |
+| [Temperatura](#temperatura) | [Gastos](#gastos) | [Ubicación](#ubicación) | [Coordenadas](#coordenadas) |
+| [Apicultor](#apicultor) | [Dinero](#dinero) | [Ruta](#ruta) | [Desplazamiento](#desplazamiento) |
+| [Trashumancia](#trashumancia) | [Tiempo de Desplazamiento](#tiempo-de-desplazamiento) | [Cargar](#cargar) | [Camión](#camión) |
+| [Viabilidad Floral](#viabilidad-floral) | [Flora](#flora) | [Flor](#flor) | [Heurística de Floración](#heurística-de-floración) |
+| [Colmenar](#colmenar) | [Colmena](#colmena) | [Abejas](#abejas) | [Alimento](#alimento) |
 
 ## Fenómenos y Variables Meteorológicas
 Fenómenos meteorológicos que pueden alterar el ciclo de floración. Aparecen en la HU: _Sequía_, _Ola de Calor_, _Precipitaciones_ y _Temperatura_.
@@ -36,10 +35,7 @@ Acciones o consecuencias de acciones que suponen una pérdida monetaria para el 
 - Aparecen en el journey: _Alimentar Abejas Artificialmente_, _Gasoil_ (sinónimo de _Combustible_)
 
 ## Ubicación
-Lugares determinados por sus ubicaciones geográficas en los que un apicultor puede llevar su colmenar. Aparecen en el journey _campo_, _parcela_ y _nave_, campo es sinónimo de parcela, siendo parcela el término técnico adecuado.
-
-## Ubicación Geográfica
-Posición en el mapa en forma de coordenadas en grados decimales. _extraído de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)_
+Lugares determinados por sus coordenadas en los que un apicultor puede llevar su colmenar. Aparecen en el journey _campo_, _parcela_ y _nave_, campo es sinónimo de parcela, siendo parcela el término técnico adecuado.
 
 ## Coordenadas
 Expresadas en grados decimales. ¿Formato en el que se expresan las ubicaciones de parcelas? refs #10 _extraído de [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar)_
@@ -51,7 +47,7 @@ Persona que trabaja extrayendo la miel de las abejas, debe asegurarse de que est
 Recurso que posee un apicultor y con el que financia, entre otras cosas, los desplazamientos y el alimento artificial de las abejas. _extraído de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)_
 
 ## Ruta
-Conjunto de ubicaciones ordenadas que describe el trayecto de un desplazamiento. _extraído de [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar)_
+Conjunto de coordenadas ordenadas que describe el trayecto de un desplazamiento. _extraído de [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar)_
 
 ## Desplazamiento
 Movimiento del apicultor con un colmenar de una ubicación a otra que le implica un coste en dinero y tiempo. _extraído de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)_
