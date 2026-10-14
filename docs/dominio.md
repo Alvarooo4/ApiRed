@@ -35,7 +35,7 @@ Acciones o consecuencias de acciones que suponen una pérdida monetaria para el 
 - Aparecen en el journey: _Alimentar Abejas Artificialmente_, _Gasoil_ (sinónimo de _Combustible_)
 
 ## Ubicación
-Lugar determinado por sus coordenadas en el que un apicultor puede llevar su colmenar. Aparecen en el journey _campo_, _parcela_ y _nave_, campo es sinónimo de parcela, siendo parcela el término técnico adecuado.
+Lugar determinado por sus coordenadas en el que un apicultor puede llevar su colmenar. Aparecen en el journey _campo_ y _parcela_, siendo campo sinónimo de parcela, siendo parcela el término técnico adecuado.
 
 ## Coordenadas
 Expresadas en grados decimales. ¿Formato en el que se expresan las ubicaciones de parcelas? refs #10 _extraído de [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar)_
