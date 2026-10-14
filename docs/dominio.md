@@ -35,7 +35,7 @@ Acciones o consecuencias de acciones que suponen una pérdida monetaria para el 
 - Aparecen en la HU: _Combustible_
 - Aparecen en el journey: _Alimentar Abejas Artificialmente_, _Gasoil_ (sinónimo de _Combustible_)
 
-## Ubicaciones
+## Ubicación
 Lugares determinados por sus ubicaciones geográficas en los que un apicultor puede llevar su colmenar. ¿Aparecen en el journey _campo_, _parcela_ y _nave_? refs #10.
 
 ## Ubicación Geográfica
