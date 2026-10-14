@@ -9,9 +9,9 @@ Documento en el que se extrae el lenguaje ubicuo del problema narrado por la [HU
 | [Fenómenos y Variables Meteorológicas](#fenómenos-y-variables-meteorológicas) | [Clima Local](#clima-local) | [Datos Meteorológicos](#datos-meteorológicos) | [Registro](#registro) |
 | [Temperatura](#temperatura) | [Gastos](#gastos) | [Ubicación](#ubicación) | [Coordenadas](#coordenadas) |
 | [Apicultor](#apicultor) | [Dinero](#dinero) | [Ruta](#ruta) | [Desplazamiento](#desplazamiento) |
-| [Trashumancia](#trashumancia) | [Tiempo de Desplazamiento](#tiempo-de-desplazamiento) | [Cargar](#cargar) | [Camión](#camión) |
-| [Viabilidad Floral](#viabilidad-floral) | [Flora](#flora) | [Flor](#flor) | [Heurística de Floración](#heurística-de-floración) |
-| [Colmenar](#colmenar) | [Colmena](#colmena) | [Abejas](#abejas) | [Alimento](#alimento) |
+| [Trashumancia](#trashumancia) | [Tiempo de Desplazamiento](#tiempo-de-desplazamiento) | [Camión](#camión) | [Viabilidad Floral](#viabilidad-floral) |
+| [Flora](#flora) | [Flor](#flor) | [Heurística de Floración](#heurística-de-floración) | [Colmenar](#colmenar) |
+| [Colmena](#colmena) | [Abejas](#abejas) | [Alimento](#alimento) |  |
 
 ## Fenómenos y Variables Meteorológicas
 Fenómenos meteorológicos que pueden alterar el ciclo de floración. Aparecen en la HU: _Sequía_, _Ola de Calor_, _Precipitaciones_ y _Temperatura_.
@@ -57,9 +57,6 @@ Desplazamientos periódicos que buscan el lugar con mejores datos metereológico
 
 ## Tiempo de Desplazamiento
 Tiempo que tarda el apicultor en realizar un desplazamiento, medido en minutos. _extraído de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)_
-
-## Cargar
-Llenar el camión con el colmenar. ¿Algo más? refs #12 _extraído de [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar)_
 
 ## Camión
 Herramienta de desplazamiento del apicultor. Consume combustible al desplazarse. _extraído de [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar)_
