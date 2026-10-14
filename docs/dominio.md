@@ -17,10 +17,10 @@ Documento en el que se extrae el lenguaje ubicuo del problema narrado por la [HU
 Fenómenos meteorológicos que pueden alterar el ciclo de floración. Aparecen en la HU: _Sequía_, _Ola de Calor_, _Precipitaciones_ y _Temperatura_.
 
 ## Clima Local
-Conjunto de fenómenos meteorológicos que afectan a una ubicación concreta. _extraído de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)_
+Tendencia histórica de fenómenos y variables metereológicas de una ubicación. _extraído de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)_
 
 ## Datos Meteorológicos
-¿Sinónimo de datos del clima local? refs #13 _extraído de [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar)_
+Conjunto de fenómenos y variables meteorológicas que afectan a una ubicación concreta. _extraído de [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar)_
 
 ## Registro
 Documento en el que se almacenan datos sobre el clima local de una ubicación concreta. _extraído de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)_
@@ -53,7 +53,7 @@ Conjunto de coordenadas ordenadas que describe el trayecto de un desplazamiento.
 Movimiento del apicultor con un colmenar de una ubicación a otra que le implica un coste en dinero y tiempo. _extraído de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)_
 
 ## Trashumancia
-Desplazamientos periódicos que buscan el lugar con mejor clima y alimento para las abejas. _extraído de [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar)_
+Desplazamientos periódicos que buscan el lugar con mejores datos metereológicos y alimento para las abejas. _extraído de [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar)_
 
 ## Tiempo de Desplazamiento
 Tiempo que tarda el apicultor en realizar un desplazamiento, medido en minutos. _extraído de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)_
