@@ -1,6 +1,6 @@
 # Dominio del Problema
 
-Documento en el que se extrae el lenguaje ubicuo del problema narrado por [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas).
+Documento en el que se extrae el lenguaje ubicuo del problema narrado por _[HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas) con ayuda del _[journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar)_.
 
 ### Fenómenos y Variables Meteorológicas
 Fenómenos meteorológicos que pueden alterar el ciclo de floración. Aparecen en la HU: _Sequía_, _Ola de Calor_, _Precipitaciones_ y _Temperatura_.
@@ -14,7 +14,6 @@ Conjunto de fenómenos meteorológicos que afectan a una ubicación concreta. _e
 ### Registro: 
 Documento en el que se almacenan datos sobre el clima local de una ubicación concreta. _extraído de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)_
 
-
 ### Temperatura: 
 Variable meteorológica que puede alterar el ciclo de floración. _extraído de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)_
 
@@ -22,9 +21,6 @@ Variable meteorológica que puede alterar el ciclo de floración. _extraído de 
 Acciones o consecuencias de acciones que suponen una pérdida monetaria para el apicultor.
     - Aparecen en la HU: _Combustible_
     - Aparecen en el journey: _Alimentar Abejas Artificialmente_, _Gasoil_ (sinónimo de _Conbustible_)
-
-### Alimento
-Recurso que sirve de sustento para las abejas. Aparecene en el journey _néctar_ y _alimento artificial_.
 
 ### Ubicaciones
 Lugares determinados por sus ubicaciones geográficas en los que un apicultor puede llevar su colmenar. ¿Aparecen en el journey _campo_, _parcela_ y _nave_? refs #10.
@@ -34,6 +30,12 @@ Posición en el mapa en forma de coordenadas. ¿En qué formato viene dado? refs
 
 ### Coordenadas: 
 ¿Formato en el que se expresan las ubicaciones de parcelas? refs #10 _extraído de [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar)_
+
+### Apicultor
+Persona que trabaja extrayendo la miel de las abejas, debe asegurarse de que estas obtienen alimentos. _extraído de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)_
+
+### Dinero: 
+Recurso que posee un apicultor y con el que financia, entre otras cosas, los desplazamientos y el alimento artificial de las abejas. _extraído de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)_
 
 ### Ruta: 
 Conjunto de ubicaciones ordenadas que describe el trayecto de un desplazamiento. _extraído de [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar)_
@@ -47,11 +49,11 @@ Desplazamientos periódicos que buscan el lugar con mejor clima y alimento para 
 ### Tiempo de Desplazamiento: 
 Tiempo que tarda el apicultor en realizar un desplazamiento, medido en minutos. _extraído de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)_
 
-### Apicultor
-Persona que trabaja extrayendo la miel de las abejas, debe asegurarse de que estas obtienen alimentos. _extraído de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)_
+### Cargar: 
+Llenar el camión con el colmenar. ¿Algo más? refs #12 _extraído de [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar)_
 
-### Dinero: 
-Recurso que posee un apicultor y con el que financia, entre otras cosas, los desplazamientos y el alimento artificial de las abejas. _extraído de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)_
+### Camión: 
+Herramienta de desplazamiento del apicultor. Consume combustible al desplazarse. _extraído de [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar)_
 
 ### Viabilidad Floral: 
 Valor numérico que indica aproximadamente la probabilidad de encontrar una flora adecuada para la alimentación de las abejas.  _extraído de [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar)_
@@ -74,8 +76,5 @@ Estructura en la que viven las abejas y en la que generan la miel. _extraído de
 ### Abejas: 
 Ser vivo del que se realiza la explotación en forma de extracción de miel. Requieren de alimento para sobrevivir y producir miel. _extraído de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)_
 
-### Cargar: 
-Llenar el camión con el colmenar. ¿Algo más? refs #12 _extraído de [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar)_
-
-### Camión: 
-Herramienta de desplazamiento del apicultor. Consume combustible al desplazarse. _extraído de [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar)_
+### Alimento
+Recurso que sirve de sustento para las abejas. Aparecene en el journey _néctar_ y _alimento artificial_.
