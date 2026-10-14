@@ -39,10 +39,10 @@ Acciones o consecuencias de acciones que suponen una pérdida monetaria para el 
 Lugares determinados por sus ubicaciones geográficas en los que un apicultor puede llevar su colmenar. ¿Aparecen en el journey _campo_, _parcela_ y _nave_? refs #10.
 
 ## Ubicación Geográfica
-Posición en el mapa en forma de coordenadas. ¿En qué formato viene dado? refs #9 _extraído de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)_
+Posición en el mapa en forma de coordenadas en grados decimales. _extraído de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)_
 
 ## Coordenadas
-¿Formato en el que se expresan las ubicaciones de parcelas? refs #10 _extraído de [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar)_
+Expresadas en grados decimales. ¿Formato en el que se expresan las ubicaciones de parcelas? refs #10 _extraído de [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar)_
 
 ## Apicultor
 Persona que trabaja extrayendo la miel de las abejas, debe asegurarse de que estas obtienen alimentos. _extraído de [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas)_
