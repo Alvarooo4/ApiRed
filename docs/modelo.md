@@ -3,7 +3,7 @@
 Modelado del problema expuesto en [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas) atendiendo a la metodología _DDD_ y usando el lenguaje ubicuo definido en [docs/dominio.md](dominio.md).
 
 ## Términos a modelar:
-Clima Local, Registro, Datos Metereológicos, Fenómenos metereológicos, Variables Meteorológicas -> solo se considera la temperatura -> Temperatura, Flora.
+Clima Local, Registro, Datos Metereológicos, Fenómenos metereológicos, Variables Meteorológicas -> solo se considera la temperatura -> Temperatura
 
 ## Términos modelados:
 ### Coordenadas
@@ -37,3 +37,4 @@ Colmena - Cada parcela indica cuántas colmenas tiene.
 Abejas - No relevante para la resolución del problema.
 Alimento - No relevante para la resolución del problema.
 Heurística de Floración - Queda reflejada en los valores de temperatura y agua requeridos de cada flor.
+Flora - Se utiliza el término para referirse al conjunto de flores, pero no operamos con dicho conjunto en ningún momento, solo con flores particulares.
