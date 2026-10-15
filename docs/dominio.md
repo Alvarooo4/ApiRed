@@ -34,9 +34,6 @@ Acciones o consecuencias de acciones que suponen una pérdida monetaria para el 
 - Aparecen en la HU: _Combustible_
 - Aparecen en el journey: _Alimentar Abejas Artificialmente_, _Gasoil_ (sinónimo de _Combustible_)
 
-## Solicitud
-Coordenadas y flor principal aportadas por un apicultor que desea saber el índice de floración de la zona. _extraído de [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar)_
-
 ## Ubicación
 Lugar determinado por sus coordenadas en el que un apicultor puede llevar su colmenar. Aparecen en el journey _campo_ y _parcela_, siendo campo sinónimo de parcela, siendo parcela el término técnico adecuado.
 

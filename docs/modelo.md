@@ -3,7 +3,7 @@
 Modelado del problema expuesto en [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas) atendiendo a la metodología _DDD_ y usando el lenguaje ubicuo definido en [docs/dominio.md](dominio.md).
 
 ## Términos a modelar:
-Clima Local, Registro, Solicitud
+Clima Local, Registro
 
 ## Términos modelados:
 ### Coordenadas
