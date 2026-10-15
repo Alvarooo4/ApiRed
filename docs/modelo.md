@@ -22,6 +22,7 @@ Objeto valor representado por:
     - Fecha: del día al que alude, representada por una variable de tipo _date_.  
     - Agua: Cantidad de agua llovida ese día en esas coordenadas en mm.
     - Temperatura: 
+Dos situaciones con las mismas coordenadas y fecha no pueden tener distintas características.
 
 ## Quedan sin mencionar del lenguaje ubicuo:
 Gastos - No relevante, el problema es saber si si el índice floral de una ubicación es óptimo, no se intenta reducir los gastos. (deducido del [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar), último párrafo, Manuel va probando ubicaciones hasta encontrar una con el índice floral óptimo, sin tener en cuenta el coste necesario para llegar allí).
