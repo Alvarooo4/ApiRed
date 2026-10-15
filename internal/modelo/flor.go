@@ -1,4 +1,4 @@
-package ApiRed
+package modelo
 
 import "errors"
 
@@ -10,15 +10,15 @@ type Flor struct {
 
 func NuevaFlor(nombreIntroducido string, agua float32, temperatura float32) (Flor, error) {
 	if nombreIntroducido == "" {
-		return Flor{}, errors.New("El nombre de la flor no puede ser nulo.")
+		return Flor{}, errors.New("el nombre de la flor no puede ser nulo")
 	}
 
 	if agua <= 0 {
-		return Flor{}, errors.New("El agua óptima no puede ser menor o igual a cero.")
+		return Flor{}, errors.New("el agua óptima no puede ser menor o igual a cero")
 	}
 
 	if temperatura < -50 || temperatura > 60 {
-		return Flor{}, errors.New("La temperatura óptima debe estar en el rango [-50, 60].")
+		return Flor{}, errors.New("la temperatura óptima debe estar en el rango [-50, 60]")
 	}
 
 	return Flor{nombre: nombreIntroducido, aguaIdeal: agua, temperaturaIdeal: temperatura}, nil
