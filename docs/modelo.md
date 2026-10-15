@@ -3,7 +3,7 @@
 Modelado del problema expuesto en [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas) atendiendo a la metodología _DDD_ y usando el lenguaje ubicuo definido en [docs/dominio.md](dominio.md).
 
 ## Términos a modelar:
-Parcela, Clima Local, Registro, Datos Metereológicos, Fenómenos metereológicos, Variables Meteorológicas -> solo se considera la temperatura -> Temperatura, Flora, Flor, Heurística de Floración.
+Clima Local, Registro, Datos Metereológicos, Fenómenos metereológicos, Variables Meteorológicas -> solo se considera la temperatura -> Temperatura, Flora, Flor, Heurística de Floración.
 
 ## Términos modelados:
 ### Coordenadas
@@ -18,6 +18,7 @@ Dinero - No relevante, por los mismos motivos que gastos.
 Trashumancia - No relevante, se considera que todos los desplazamientos realizados por el apicultor son de trashumancia.
 Tiempo de desplazamiento - Incluido en minutos en el propio Desplazamiento. 
 Viabilidad Floral - Puntuación calculable dada una ubicación, metereología local y heurística de floración, es por tanto un resultado, no un objeto en sí. 
+Parcela - Como solo es representada por una coordenada, es sinónimo de coordenada.
 Colmenar - Está incluido como número de colmenas de una parcela.
 Colmena - Cada parcela indica cuántas colmenas tiene.
 Abejas - No relevante para la resolución del problema.
