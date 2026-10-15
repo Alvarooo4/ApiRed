@@ -5,6 +5,10 @@ Modelado del problema expuesto en [HU001](historias-usuario.md#hu001-no-sé-si-u
 ## Términos a modelar:
 Ruta, Parcela, Coordenadas, Desplazamiento, Clima Local, Registro, Datos Metereológicos, Fenómenos metereológicos, Variables Meteorológicas -> solo se considera la temperatura -> Temperatura, Flora, Flor, Heurística de Floración.
 
+## Términos modelados:
+### Coordenadas
+Objeto valor representado por dos valores numéricos flotantes, uno para la latitud y otro para la longitud.
+
 ## Quedan sin mencionar del lenguaje ubicuo:
 Gastos - No relevante, el problema es saber si si el índice floral de una ubicación es óptimo, no se intenta reducir los gastos. (deducido del [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar), último párrafo, Manuel va probando ubicaciones hasta encontrar una con el índice floral óptimo, sin tener en cuenta el coste necesario para llegar allí).
 Apicultor - No relevante, no diferenciamos entre un apicultor y otro, pues ambos obtienen el mismo resultado de introducir los mismos datos en la aplicación. 
