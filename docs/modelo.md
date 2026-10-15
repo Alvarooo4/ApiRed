@@ -10,10 +10,11 @@ Clima Local, Registro, Solicitud
 Objeto valor representado por dos valores numéricos flotantes, uno para la latitud y otro para la longitud.
 
 ### Flor
-Objeto valor representado:
+Objeto valor representado por:
     - Nombre
     - Cantidad de agua óptima: En milímetros (cada milímetro equivale a 1 l/m²) representada por un flotante.
     - Temperatura óptima: En grados centígrados representado con un flotante.
+Dos flores con el mismo nombre no pueden tener distintas características.
 
 ### Situación Meteoreológica
 Objeto valor representado por:
