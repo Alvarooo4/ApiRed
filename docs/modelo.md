@@ -11,7 +11,7 @@ Objeto valor representado por dos valores numéricos flotantes, uno para la lati
 
 ### Flor
 Objeto valor representado por:
-    - Nombre
+    - Nombre: en forma de cadena no nula.
     - Cantidad de agua óptima: En milímetros (cada milímetro equivale a 1 l/m²) representada por un flotante mayor o igual a cero (no tiene sentido una flor que no requiera agua).
     - Temperatura óptima: En grados centígrados representado con un flotante en el rango [-50, 60], temperaturas que se consideran el límite lógico que una flor podría tener como temperatura óptima.
 Dos flores con el mismo nombre no pueden tener distintas características.
