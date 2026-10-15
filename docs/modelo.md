@@ -16,7 +16,7 @@ Objeto valor representado por:
     - Temperatura óptima: En grados centígrados representado con un flotante en el rango [-50, 60], temperaturas que se consideran el límite lógico que una flor podría tener como temperatura óptima.
 Dos flores con el mismo nombre no pueden tener distintas características.
 
-### Situación Meteoreológica
+### Situación Meteorológica
 Objeto valor representado por:
     - Coordenadas: del lugar al que alude
     - Fecha: del día al que alude, representada por una variable de tipo _date_.  
@@ -25,14 +25,14 @@ Objeto valor representado por:
 Dos situaciones con las mismas coordenadas y fecha no pueden tener distintas características.
 
 ## Quedan sin mencionar del lenguaje ubicuo:
-Gastos - No relevante, el problema es saber si si el índice floral de una ubicación es óptimo, no se intenta reducir los gastos. (deducido del [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar), último párrafo, Manuel va probando ubicaciones hasta encontrar una con el índice floral óptimo, sin tener en cuenta el coste necesario para llegar allí).
+Gastos - No relevante, el problema es saber si el índice floral de una ubicación es óptimo, no se intenta reducir los gastos. (deducido del [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar), último párrafo, Manuel va probando ubicaciones hasta encontrar una con el índice floral óptimo, sin tener en cuenta el coste necesario para llegar allí).
 Ruta - No relevante, comprobamos el índice floral de una ubicación, no cómo llegar hasta ella.
 Desplazamiento - No relevante por los mismos motivos que ruta.
 Apicultor - No relevante, no diferenciamos entre un apicultor y otro, pues ambos obtienen el mismo resultado de introducir los mismos datos en la aplicación. 
 Dinero - No relevante, por los mismos motivos que gastos.
 Trashumancia - No relevante, se considera que todos los desplazamientos realizados por el apicultor son de trashumancia.
 Tiempo de desplazamiento - Incluido en minutos en el propio Desplazamiento. 
-Viabilidad Floral - Puntuación calculable dada una ubicación, metereología local y heurística de floración, es por tanto un resultado, no un objeto en sí. 
+Viabilidad Floral - Puntuación calculable dada una ubicación, meteorología local y heurística de floración, es por tanto un resultado, no un objeto en sí. 
 Parcela - Como solo es representada por una coordenada, es sinónimo de coordenada.
 Colmenar - Está incluido como número de colmenas de una parcela.
 Colmena - Cada parcela indica cuántas colmenas tiene.
@@ -40,5 +40,5 @@ Abejas - No relevante para la resolución del problema.
 Alimento - No relevante para la resolución del problema.
 Heurística de Floración - Queda reflejada en los valores de temperatura y agua requeridos de cada flor.
 Flora - Se utiliza el término para referirse al conjunto de flores, pero no operamos con dicho conjunto en ningún momento, solo con flores particulares.
-Temperatura - Queda incluida en Situación Meteoreológica.
-Fenómenos metereológicos - Quedan representados en situación metereológica
+Temperatura - Queda incluida en Situación Meteorológica.
+Fenómenos meteorológicos - Quedan representados en situación meteorológica
