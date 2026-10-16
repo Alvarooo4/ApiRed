@@ -3,11 +3,11 @@ Los siguientes viajes del usuario muestran el uso esperado de ApiRed una vez que
 
 ## Jornada 1: Manuel comprueba la viabilidad del terreno antes de trasladar el colmenar
 
-Manuel, un apicultor profesional, utiliza ApiRed para organizar sus rutas de trashumancia. Estamos a principios de primavera y tiene planificado mover un colmenar de 50 colmenas a un campo que está bastante alejado de su nave. El año ha empezado con olas de calor inesperadas, por lo que teme que las plantas no se hayan desarrollado con normalidad.
+Manuel, un apicultor profesional, utiliza ApiRed para organizar sus rutas de trashumancia. Estamos a principios de primavera y tiene planificado mover un colmenar de 50 colmenas a una parcela que está bastante alejada. El año ha empezado con olas de calor inesperadas, por lo que teme que las plantas no se hayan desarrollado con normalidad.
 
-Antes de cargar el camión y arriesgarse a hacer un viaje a ciegas, utiliza su móvil y entra en la plataforma. En el menú principal, introduce las coordenadas exactas de su parcela y marca la opción de la flor que quiere analizar en esa localización.
+Antes de iniciar el trayecto y arriesgarse a hacer un viaje a ciegas, utiliza su móvil y entra en la plataforma. En el menú principal, introduce la localización exacta de su parcela y marca la opción de la flor que quiere analizar allí.
 
-ApiRed cruza esa ubicación con los datos meteorológicos del municipio (tanto recientes como históricos) y los evalúa usando los umbrales de lluvia y temperatura que necesita esa planta. En cuestión de segundos, la aplicación le devuelve un "Índice de Viabilidad Floral Bajo", además de un aviso de posible falta de néctar.
+ApiRed cruza esa ubicación con las condiciones meteorológicas de la zona y las evalúa usando los umbrales de lluvia y temperatura que necesita esa planta. En cuestión de segundos, la aplicación le devuelve un "Índice de Viabilidad Floral Bajo", además de un aviso de posible falta de néctar.
 
 Si Manuel lleva las abejas allí significará tener que alimentarlas artificialmente y, por tanto, suponer un gran golpe para su bolsillo. Por ello, Manuel cancela ese viaje y se ahorra una pérdida de tiempo y gasoil importante. Tras utilizar la app para testear otra de sus parcelas, donde el índice resulta ser óptimo, cambia su ruta hacia allí y comienza con la mañana de trabajo.
 
