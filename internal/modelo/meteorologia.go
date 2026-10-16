@@ -26,7 +26,9 @@ func NuevaMeteorologia(fechaIntroducida time.Time, agua float64, tempMin float64
 		return Meteorologia{}, fmt.Errorf("la temperatura mínima (%f) debe ser físicamente posible", tempMin)
 	}
 
-	fecha00 := time.Date(fechaIntroducida.Year(), fechaIntroducida.Month(), fechaIntroducida.Day(), 0, 0, 0, 0, time.UTC)
+	return Meteorologia{fecha: NormalizarFecha(fechaIntroducida), aguaLlovida: agua, temperaturaMin: tempMin, temperaturaMax: tempMax}, nil
+}
 
-	return Meteorologia{fecha: fecha00, aguaLlovida: agua, temperaturaMin: tempMin, temperaturaMax: tempMax}, nil
+func NormalizarFecha(fecha time.Time) time.Time {
+	return time.Date(fecha.Year(), fecha.Month(), fecha.Day(), 0, 0, 0, 0, time.UTC)
 }
