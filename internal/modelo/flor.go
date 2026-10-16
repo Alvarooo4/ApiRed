@@ -8,7 +8,7 @@ type Flor struct {
 	temperaturaIdeal float64
 }
 
-func NuevaFlor(nombreIntroducido string, agua float64, temperatura float64) (Flor, error) {
+func nuevaFlor(nombreIntroducido string, agua float64, temperatura float64) (Flor, error) {
 	if nombreIntroducido == "" {
 		return Flor{}, errors.New("el nombre de la flor no puede ser nulo")
 	}
