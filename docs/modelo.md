@@ -23,7 +23,7 @@ Entidad que registra meteorologías representado por:
 
 ### Meteorológica
 Objeto valor representado por:
-    - Fecha: del día al que alude, representada por una variable de tipo _date_.  
+    - Fecha: del día al que alude, representada por una variable de tipo entero.  
     - Agua: Cantidad de agua llovida ese día en esas coordenadas en mm.
     - Temperatura Mínima: Temperatura mínima alcanzada ese día representada por un flotante.
     - Temperatura Máxima: Temperatura máxima alcanzada ese día representada por un flotante.

@@ -7,7 +7,7 @@ import (
 )
 
 type Meteorologia struct {
-	fecha          time.Time
+	fecha          int
 	aguaLlovida    float64
 	temperaturaMin float64
 	temperaturaMax float64
@@ -26,7 +26,7 @@ func NuevaMeteorologia(fechaIntroducida time.Time, agua float64, tempMin float64
 		return Meteorologia{}, fmt.Errorf("la temperatura mínima (%f) debe ser físicamente posible", tempMin)
 	}
 
-	fecha00 := time.Date(fechaIntroducida.Year(), fechaIntroducida.Month(), fechaIntroducida.Day(), 0, 0, 0, 0, time.UTC)
+	fecha00 := fechaIntroducida.Year()*10000 + int(fechaIntroducida.Month())*100 + fechaIntroducida.Day()
 
 	return Meteorologia{fecha: fecha00, aguaLlovida: agua, temperaturaMin: tempMin, temperaturaMax: tempMax}, nil
 }
