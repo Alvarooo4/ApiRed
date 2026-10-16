@@ -9,6 +9,9 @@ Clima Local, Registro
 ### Coordenadas
 Objeto valor representado por dos valores numéricos flotantes, uno para la latitud y otro para la longitud.
 
+### Flora
+Registro de las flores que soporta ApiRed. Representado por un único conjunto de flores.
+
 ### Flor
 Objeto valor representado por:
     - Nombre: en forma de cadena no nula.
@@ -39,6 +42,5 @@ Colmena - Cada parcela indica cuántas colmenas tiene.
 Abejas - No relevante para la resolución del problema.
 Alimento - No relevante para la resolución del problema.
 Heurística de Floración - Queda reflejada en los valores de temperatura y agua requeridos de cada flor.
-Flora - Se utiliza el término para referirse al conjunto de flores, pero no operamos con dicho conjunto en ningún momento, solo con flores particulares.
 Temperatura - Queda incluida en Situación Meteorológica.
 Fenómenos meteorológicos - Quedan representados en situación meteorológica
