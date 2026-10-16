@@ -19,7 +19,7 @@ Objeto valor representado por:
     - Temperatura óptima: En grados centígrados representado con un flotante en el rango [-50, 60], temperaturas que se consideran el límite lógico que una flor podría tener como temperatura óptima.
 Dos flores con el mismo nombre no pueden tener distintas características.
 
-### Situación Meteorológica
+### Meteorológica
 Objeto valor representado por:
     - Coordenadas: del lugar al que alude
     - Fecha: del día al que alude, representada por una variable de tipo _date_.  
