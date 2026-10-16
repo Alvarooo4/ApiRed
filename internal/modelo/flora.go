@@ -20,7 +20,7 @@ func (flora *Flora) AgregarFlor(flor Flor) error {
 }
 
 func (flora *Flora) ModificarFlor(nombre string, agua float64, temperatura float64) error {
-	flor, err := nuevaFlor(nombre, agua, temperatura)
+	flor, err := NuevaFlor(nombre, agua, temperatura)
 	if err == nil {
 		flora.flores[flor.nombre] = flor
 		return nil
