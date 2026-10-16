@@ -24,7 +24,8 @@ Objeto valor representado por:
     - Coordenadas: del lugar al que alude
     - Fecha: del día al que alude, representada por una variable de tipo _date_.  
     - Agua: Cantidad de agua llovida ese día en esas coordenadas en mm.
-    - Temperatura: 
+    - Temperatura Mínima: Temperatura mínima alcanzada ese día representada por un flotante.
+    - Temperatura Máxima: Temperatura máxima alcanzada ese día representada por un flotante.
 Dos situaciones con las mismas coordenadas y fecha no pueden tener distintas características.
 
 ## Quedan sin mencionar del lenguaje ubicuo:
