@@ -2,9 +2,6 @@
 
 Modelado del problema expuesto en [HU001](historias-usuario.md#hu001-no-sé-si-un-campo-tiene-las-condiciones-climáticas-adecuadas-antes-de-trasladar-mis-colmenas) atendiendo a la metodología _DDD_ y usando el lenguaje ubicuo definido en [docs/dominio.md](dominio.md).
 
-## Términos a modelar:
-Clima Local, Registro
-
 ## Términos modelados:
 ### Coordenadas
 Objeto valor representado por dos valores numéricos flotantes, uno para la latitud y otro para la longitud.
@@ -19,14 +16,18 @@ Objeto valor representado por:
     - Temperatura óptima: En grados centígrados representado con un flotante en el rango [-50, 60], temperaturas que se consideran el límite lógico que una flor podría tener como temperatura óptima.
 Dos flores con el mismo nombre no pueden tener distintas características.
 
+### Clima Local
+Entidad que registra meteorologías representado por:
+    - coordenadas: Identifican a la entidad.
+    - conjunto de meteorologías identificadas por fecha.
+
 ### Meteorológica
 Objeto valor representado por:
-    - Coordenadas: del lugar al que alude
     - Fecha: del día al que alude, representada por una variable de tipo _date_.  
     - Agua: Cantidad de agua llovida ese día en esas coordenadas en mm.
     - Temperatura Mínima: Temperatura mínima alcanzada ese día representada por un flotante.
     - Temperatura Máxima: Temperatura máxima alcanzada ese día representada por un flotante.
-Dos situaciones con las mismas coordenadas y fecha no pueden tener distintas características.
+Está siempre almacenado en un clima, dos metereologías en el mismo clima con misma fecha son la misma. Las coordenadas del clima son las coordenadas de la meteorología.
 
 ## Quedan sin mencionar del lenguaje ubicuo:
 Gastos - No relevante, el problema es saber si el índice floral de una ubicación es óptimo, no se intenta reducir los gastos. (deducido del [journey](user-journeys.md#jornada-1-manuel-comprueba-la-viabilidad-del-terreno-antes-de-trasladar-el-colmenar), último párrafo, Manuel va probando ubicaciones hasta encontrar una con el índice floral óptimo, sin tener en cuenta el coste necesario para llegar allí).
@@ -45,3 +46,4 @@ Alimento - No relevante para la resolución del problema.
 Heurística de Floración - Queda reflejada en los valores de temperatura y agua requeridos de cada flor.
 Temperatura - Queda incluida en Situación Meteorológica.
 Fenómenos meteorológicos - Quedan representados en situación meteorológica
+Registro - Queda representado por la propia entidad clima. 

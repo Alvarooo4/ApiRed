@@ -7,14 +7,13 @@ import (
 )
 
 type Meteorologia struct {
-	coordenada     Coordenada
 	fecha          time.Time
 	aguaLlovida    float64
 	temperaturaMin float64
 	temperaturaMax float64
 }
 
-func NuevaMeteorologia(coord Coordenada, fechaIntroducida time.Time, agua float64, tempMin float64, tempMax float64) (Meteorologia, error) {
+func NuevaMeteorologia(fechaIntroducida time.Time, agua float64, tempMin float64, tempMax float64) (Meteorologia, error) {
 	if agua < 0 {
 		return Meteorologia{}, errors.New("el agua llovida no puede ser negativa")
 	}
@@ -29,5 +28,5 @@ func NuevaMeteorologia(coord Coordenada, fechaIntroducida time.Time, agua float6
 
 	fecha00 := time.Date(fechaIntroducida.Year(), fechaIntroducida.Month(), fechaIntroducida.Day(), 0, 0, 0, 0, time.UTC)
 
-	return Meteorologia{coordenada: coord, fecha: fecha00, aguaLlovida: agua, temperaturaMin: tempMin, temperaturaMax: tempMax}, nil
+	return Meteorologia{fecha: fecha00, aguaLlovida: agua, temperaturaMin: tempMin, temperaturaMax: tempMax}, nil
 }
