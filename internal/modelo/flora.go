@@ -6,7 +6,7 @@ type Flora struct {
 	flores map[string]Flor
 }
 
-func NuevaFlora() *Flora { return &Flora{make(map[string]Flor)} }
+func NuevaFlora() *Flora { return &Flora{flores: make(map[string]Flor)} }
 
 func (flora *Flora) AgregarFlor(flor Flor) error {
 	nombre := flor.nombre
@@ -21,9 +21,10 @@ func (flora *Flora) AgregarFlor(flor Flor) error {
 
 func (flora *Flora) ModificarFlor(nombre string, agua float64, temperatura float64) error {
 	flor, err := NuevaFlor(nombre, agua, temperatura)
-	if err == nil {
-		flora.flores[flor.nombre] = flor
-		return nil
+	if err != nil {
+		return err
 	}
-	return err
+
+	flora.flores[flor.nombre] = flor
+	return nil
 }
