@@ -1,4 +1,4 @@
-package modelo
+package bioma
 
 type Flora struct {
 	flores map[string]Flor
