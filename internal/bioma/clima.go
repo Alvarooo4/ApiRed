@@ -6,6 +6,7 @@ import (
 
 type Clima struct {
 	coordenada            Coordenada
+	flores                []string
 	registroMeteorologico map[time.Time]Meteorologia
 }
 
