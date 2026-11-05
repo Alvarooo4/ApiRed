@@ -1,6 +1,6 @@
 package bioma
 
 type ApiRed struct {
-	climas []Clima
+	climas map[Clima]struct{}
 	flores map[Flor]struct{}
 }
