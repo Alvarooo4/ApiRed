@@ -1,2 +1,2 @@
 lenguaje: go
-entidad: internal/modelo/clima.go
+entidad: internal/modelo/api_red.go
