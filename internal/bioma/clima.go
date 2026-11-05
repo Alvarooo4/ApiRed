@@ -5,6 +5,6 @@ import (
 )
 
 type Clima struct {
-	coordenada            Coordenada
-	registroMeteorologico map[time.Time]Meteorologia
+	coordenada             Coordenada
+	meteorologia_por_fecha map[time.Time]Meteorologia
 }
