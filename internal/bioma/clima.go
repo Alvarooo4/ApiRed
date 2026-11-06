@@ -5,5 +5,5 @@ import (
 )
 
 type Clima struct {
-	meteorologia_por_fecha map[time.Time]Meteorologia
+	meteorologiaPorFecha map[time.Time]Meteorologia
 }
