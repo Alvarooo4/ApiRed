@@ -1,6 +1,6 @@
 package bioma
 
-type Coordenada struct {
+type CoordenadaDecimal struct {
 	latitudY  float64
 	longitudX float64
 }
