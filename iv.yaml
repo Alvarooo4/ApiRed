@@ -1,2 +1,2 @@
 lenguaje: go
-entidad: internal/modelo/api_red.go
+entidad: internal/bioma/api_red.go
