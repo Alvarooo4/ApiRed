@@ -42,13 +42,17 @@ A continuación se muestran las imágenes de los roles asignados para el desarro
 
 ## Configuración
 La configuración del entorno local se encuentra detallada paso a paso en el siguiente enlace:
-[Ver detalles y capturas de la configuración](doc/configuracion.md)
+[Ver detalles y capturas de la configuración](doc/configuración.md)
 
 ## Objetivo 1: Planificación Ágil y PMV
 Toda la documentación sobre el diseño del PMV y la planificación del proyecto se ha organizado en los siguientes documentos:
 
 * [Personas](docs/personas.md)
 * [User Journeys](docs/user-journeys.md)
-* [Historias de Usuario](docs/historias-usuarios.md)
+* [Historias de Usuario](docs/historias-usuario.md)
 * [Milestones](docs/milestones.md)
 
+## Objetivo 2: Modelado del dominio
+La implementación del modelo puede encontrarse en el siguiente directorio:
+
+* [Implementación del modelo](docs/internal/modelo)
