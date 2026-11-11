@@ -53,9 +53,6 @@ Toda la documentación sobre el diseño del PMV y la planificación del proyecto
 * [Milestones](docs/milestones.md)
 
 ## Objetivo 2: Modelado del dominio
-El análisis del dominio y su traducción a código se recoge en los siguientes documentos:
+La implementación del modelo puede encontrarse en el siguiente directorio:
 
-* [Lenguaje ubicuo del dominio](docs/dominio.md)
-* [Modelo del problema](docs/modelo.md)
 * [Implementación del modelo](docs/internal/modelo)
-* [Diagrama del modelo](docs/diagrama-modelo.md)
