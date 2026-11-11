@@ -2,5 +2,5 @@ package bioma
 
 type ApiRed struct {
 	climaPorCoordenada map[CoordenadaDecimal]Clima
-	flores             map[Flor]struct{}
+	heuristicaPorFlor  map[string]HeuristicaFloracion
 }
