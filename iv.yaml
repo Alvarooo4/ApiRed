@@ -1,2 +1,6 @@
 lenguaje: go
 entidad: internal/bioma/api_red.go
+
+automatizar:
+  fichero: Makefile
+  orden: make
