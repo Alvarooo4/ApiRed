@@ -74,5 +74,10 @@ Todo el flujo de trabajo de este repositorio está centralizado utilizando esta 
 
   Para verificar la sintaxis de los archivos fuente y asegurar que el proyecto compila sin errores:
   ```bash
-    make install
+    make check
+  ```
+
+  Para lanzar la batería de tests automatizados y comprobar la integridad del sistema:
+  ```bash
+    make test
   ```
