@@ -56,3 +56,23 @@ Toda la documentación sobre el diseño del PMV y la planificación del proyecto
 La implementación del modelo puede encontrarse en el siguiente directorio:
 
 * [Implementación del modelo](docs/internal/modelo)
+
+## Automatización de Operaciones
+## Automatización de Operaciones
+
+Para la gestión de tareas, construcción y comprobaciones en el proyecto, se ha seleccionado **GNU Make** como la herramienta oficial de automatización. 
+
+Esta decisión se ha tomado tras realizar una evaluación empírica frente a otras alternativas (como *Just*, *Mage* y *Task*), midiendo su impacto mediante benchmarks de rendimiento (`hyperfine`) y su huella en el sistema o deuda técnica (`du -h`). Make ha demostrado ser la opción más óptima al ofrecer el menor tiempo de ejecución adicional (añadiendo apenas un factor de 1.4x sobre la compilación nativa de Go) y una deuda técnica prácticamente nula (con un ejecutable de apenas 172K frente a los 72M de Task o los 5.7M de Just).
+
+Todo el flujo de trabajo de este repositorio está centralizado utilizando esta herramienta. A continuación se detallan las órdenes principales:
+
+* **Descarga de dependencias:**
+  Para inicializar el entorno y obtener las bibliotecas necesarias del proyecto:
+  ```bash
+  make install
+  ```
+
+  Para verificar la sintaxis de los archivos fuente y asegurar que el proyecto compila sin errores:
+  ```bash
+    make install
+  ```
