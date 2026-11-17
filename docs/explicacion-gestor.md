@@ -49,3 +49,15 @@ Versión 3.81, instalada con `winget install --id GnuWin32.Make -e`, que descarg
 **Instalación:** 9,4 s.
 
 ![Instalación de Make](media/make-instalacion.png)
+
+### Just
+
+Versión 1.59.0, instalada con `winget install --id Casey.Just -e`, que descarga el binario ya compilado (2,18 MB) y lo añade al PATH automáticamente.
+
+**Ejecución:** `just check` tarda de media 126,4 ms ± 3,8 ms, y la orden directa tarda 36,8 ms ± 1,8 ms. Just añade unos 90 ms, así que es 3,4 veces más lento que la orden sin gestor.
+
+![Ejecución de Just](media/just-ejecucion.png)
+
+**Instalación:** 5,5 s.
+
+![Instalación de Just](media/just-instalacion.png)
