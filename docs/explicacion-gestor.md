@@ -61,3 +61,15 @@ Versión 1.59.0, instalada con `winget install --id Casey.Just -e`, que descarga
 **Instalación:** 5,5 s.
 
 ![Instalación de Just](media/just-instalacion.png)
+
+### Mage
+
+Versión 1.17.2, instalada con `go install github.com/magefile/mage@latest`, que descarga el código fuente y lo compila en el equipo. Las tareas se escriben en Go, en el fichero `magefile.go`.
+
+**Ejecución:** `mage check` tarda de media 838,0 ms ± 82,3 ms, y la orden directa tarda 35,5 ms ± 1,9 ms. Mage añade unos 803 ms, así que es 23,6 veces más lento que la orden sin gestor. Además, sus tiempos varían bastante más que los de Make y Just.
+
+![Ejecución de Mage](media/mage-ejecucion.png)
+
+**Instalación:** 13,2 s.
+
+![Instalación de Mage](media/mage-instalacion.png)
