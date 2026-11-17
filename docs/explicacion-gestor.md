@@ -86,3 +86,12 @@ Versión 3.54.0, instalada con `go install github.com/go-task/task/v3/cmd/task@l
 **Instalación:** 95,9 s.
 
 ![Instalación de Task](../media/task-instalacion.png)
+
+## Elección final
+
+Se elige **Just** como gestor de tareas de ApiRed, porque es el que mejor resultado da en los dos criterios:
+
+- **Ejecución:** es el que menos tiempo añade a la orden (unos 90 ms), por delante de Make (unos 102 ms). Mage (unos 803 ms) y Task (unos 1966 ms) quedan muy por detrás.
+- **Instalación:** es el más rápido de instalar (5,5 s), por delante de Make (9,4 s), Mage (13,2 s) y Task (95,9 s).
+
+Make y Just están muy cerca, con unos 12 ms de diferencia al ejecutar y unos 4 s al instalar, pero Just gana en las dos medidas. Además, se añade al PATH automáticamente al instalarlo, cosa que Make no hace. Mage y Task se descartan porque son claramente más lentos en las dos medidas: se compilan desde el código fuente al instalarlos y añaden mucho tiempo en cada ejecución.
