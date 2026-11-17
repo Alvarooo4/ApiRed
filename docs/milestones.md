@@ -13,7 +13,7 @@ Para dar este hito por superado, se va a comprobar que:
 ## Milestone 1: Lógica de negocio y pruebas automáticas
 
 ### Objetivo
-Aprovechando la base que dejamos montada en el M0, ahora vamos a programar la lógica principal que soluciona la [HU001]. Además, crearemos las pruebas que verifican dicha lógica.
+Aprovechando la base que dejamos montada en el M0, ahora vamos a programar la lógica principal que soluciona la [HU001]. Además, crearemos las pruebas que verifican dicha lógica. Para no tener que lanzar las órdenes a mano, se elegirá y configurará un gestor de tareas que permita instalar las dependencias, comprobar la sintaxis del código y ejecutar los tests.
 
 ### Validación
 Aquí la validación se hará de manera automática. El hito se considerará cerrado cuando los tests que comprueban la [HU001] salten solos al subir los cambios, pasen todos en verde y nos confirmen que el código hace exactamente lo que le toca.
