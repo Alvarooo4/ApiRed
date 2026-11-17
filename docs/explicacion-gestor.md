@@ -38,17 +38,18 @@ En los cuatro gestores, la tarea `check` ejecuta la misma orden, que comprueba l
 **Instalación.** Se ha medido con `time`, partiendo de que la herramienta no estaba instalada. Solo se tiene en cuenta el tiempo `real`, porque `user` y `sys` no incluyen el tiempo de los procesos de Windows que lanzan las instalaciones.
 
 ## Resultados
+
 ### GNU Make
 
 Versión 3.81, instalada con `winget install --id GnuWin32.Make -e`, que descarga el instalador ya compilado (3,22 MB). En este caso no se añade solo al PATH y hay que añadirlo a mano.
 
 **Ejecución:** `make check` tarda de media 139,1 ms ± 5,1 ms, y la orden directa `gofmt -e .` tarda 37,1 ms ± 2,2 ms. Make añade unos 102 ms, así que es 3,7 veces más lento que la orden sin gestor.
 
-![Ejecución de Make](media/make-ejecucion.png)
+![Ejecución de Make](../media/make-ejecucion.png)
 
 **Instalación:** 9,4 s.
 
-![Instalación de Make](media/make-instalacion.png)
+![Instalación de Make](../media/make-instalacion.png)
 
 ### Just
 
@@ -56,11 +57,11 @@ Versión 1.59.0, instalada con `winget install --id Casey.Just -e`, que descarga
 
 **Ejecución:** `just check` tarda de media 126,4 ms ± 3,8 ms, y la orden directa tarda 36,8 ms ± 1,8 ms. Just añade unos 90 ms, así que es 3,4 veces más lento que la orden sin gestor.
 
-![Ejecución de Just](media/just-ejecucion.png)
+![Ejecución de Just](../media/just-ejecucion.png)
 
 **Instalación:** 5,5 s.
 
-![Instalación de Just](media/just-instalacion.png)
+![Instalación de Just](../media/just-instalacion.png)
 
 ### Mage
 
@@ -68,11 +69,11 @@ Versión 1.17.2, instalada con `go install github.com/magefile/mage@latest`, que
 
 **Ejecución:** `mage check` tarda de media 838,0 ms ± 82,3 ms, y la orden directa tarda 35,5 ms ± 1,9 ms. Mage añade unos 803 ms, así que es 23,6 veces más lento que la orden sin gestor. Además, sus tiempos varían bastante más que los de Make y Just.
 
-![Ejecución de Mage](media/mage-ejecucion.png)
+![Ejecución de Mage](../media/mage-ejecucion.png)
 
 **Instalación:** 13,2 s.
 
-![Instalación de Mage](media/mage-instalacion.png)
+![Instalación de Mage](../media/mage-instalacion.png)
 
 ### Task
 
@@ -80,8 +81,8 @@ Versión 3.54.0, instalada con `go install github.com/go-task/task/v3/cmd/task@l
 
 **Ejecución:** `task check` tarda de media 2002,9 ms ± 150,4 ms, y la orden directa tarda 37,1 ms ± 1,7 ms. Task añade unos 1966 ms, así que es 54,0 veces más lento que la orden sin gestor. Además, es el que más varían sus tiempos de los cuatro.
 
-![Ejecución de Task](media/task-ejecucion.png)
+![Ejecución de Task](../media/task-ejecucion.png)
 
 **Instalación:** 95,9 s.
 
-![Instalación de Task](media/task-instalacion.png)
+![Instalación de Task](../media/task-instalacion.png)
