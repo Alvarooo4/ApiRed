@@ -38,3 +38,14 @@ En los cuatro gestores, la tarea `check` ejecuta la misma orden, que comprueba l
 **Instalación.** Se ha medido con `time`, partiendo de que la herramienta no estaba instalada. Solo se tiene en cuenta el tiempo `real`, porque `user` y `sys` no incluyen el tiempo de los procesos de Windows que lanzan las instalaciones.
 
 ## Resultados
+### GNU Make
+
+Versión 3.81, instalada con `winget install --id GnuWin32.Make -e`, que descarga el instalador ya compilado (3,22 MB). En este caso no se añade solo al PATH y hay que añadirlo a mano.
+
+**Ejecución:** `make check` tarda de media 139,1 ms ± 5,1 ms, y la orden directa `gofmt -e .` tarda 37,1 ms ± 2,2 ms. Make añade unos 102 ms, así que es 3,7 veces más lento que la orden sin gestor.
+
+![Ejecución de Make](media/make-ejecucion.png)
+
+**Instalación:** 9,4 s.
+
+![Instalación de Make](media/make-instalacion.png)
