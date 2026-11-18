@@ -6,12 +6,11 @@ El proyecto necesita automatizar operaciones repetitivas, como instalar las depe
 
 ## Alternativas consideradas
 
-Se han comparado cuatro gestores de tareas que se usan habitualmente en proyectos Go:
+Se han comparado los siguientes gestores de tareas:
 
 - GNU Make
 - Just
 - Mage
-- Task
 
 ## Criterios
 
@@ -22,7 +21,7 @@ La elección se basa en dos medidas objetivas, tomadas en el mismo equipo (Windo
 
 ## Método de medición
 
-En los cuatro gestores, la tarea `check` ejecuta la misma orden, que comprueba la sintaxis de los ficheros Go sin compilarlos:
+En todos los gestores, la tarea `check` ejecuta la misma orden, que comprueba la sintaxis de los ficheros Go sin compilarlos:
 
 `gofmt -e . > /dev/null`
 
@@ -75,17 +74,6 @@ Versión 1.17.2, instalada con `go install github.com/magefile/mage@latest`, que
 
 ![Instalación de Mage](../media/mage-instalacion.png)
 
-### Task
-
-Versión 3.54.0, instalada con `go install github.com/go-task/task/v3/cmd/task@latest`, que descarga el código fuente y sus dependencias y lo compila en el equipo. Las tareas se definen en el fichero `Taskfile.yml`.
-
-**Ejecución:** `task check` tarda de media 2002,9 ms ± 150,4 ms, y la orden directa tarda 37,1 ms ± 1,7 ms. Task añade unos 1966 ms, así que es 54,0 veces más lento que la orden sin gestor. Además, es el que más varían sus tiempos de los cuatro.
-
-![Ejecución de Task](../media/task-ejecucion.png)
-
-**Instalación:** 95,9 s.
-
-![Instalación de Task](../media/task-instalacion.png)
 
 ## Elección final
 
