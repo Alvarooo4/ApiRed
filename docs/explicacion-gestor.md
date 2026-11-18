@@ -12,6 +12,7 @@ Se han comparado los siguientes gestores de tareas:
 - Just
 - Mage
 - Mise
+- Tusk
 
 ## Criterios
 
@@ -86,6 +87,18 @@ Versión 2026.11.2, instalada con `winget install jdx.mise`, que descarga el bin
 **Instalación:** 27,2 s.
 
 ![Instalación de mise](../media/mise-instalacion.png)
+
+### Tusk
+
+Versión 0.8.1, instalada con `go install github.com/rliebz/tusk@latest`, que descarga el código fuente y sus dependencias y lo compila en el equipo. Las tareas se definen en el fichero `tusk.yml`.
+
+**Ejecución:** `tusk check` tarda de media 331,0 ms ± 61,9 ms, y la orden directa tarda 50,3 ms ± 2,6 ms. tusk añade unos 281 ms, así que es 6,6 veces más lento que la orden sin gestor.
+
+![Ejecución de tusk](../media/tusk-ejecucion.png)
+
+**Instalación:** 13,0 s.
+
+![Instalación de tusk](../media/tusk-instalacion.png)
 
 
 ## Elección final
