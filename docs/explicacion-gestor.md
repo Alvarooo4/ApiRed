@@ -1,0 +1,111 @@
+# Elección del gestor de tareas para ApiRed
+
+## Contexto
+
+El proyecto necesita automatizar operaciones repetitivas, como instalar las dependencias, comprobar la sintaxis del código o lanzar los tests, para no tener que escribir cada orden a mano. Go ya gestiona las dependencias mediante módulos (`go.mod`), así que lo que hay que elegir es la herramienta que lanza esas tareas.
+
+## Alternativas consideradas
+
+Se han comparado los siguientes gestores de tareas:
+
+- GNU Make
+- Just
+- Mage
+- Mise
+- Tusk
+
+## Criterios
+
+La elección se basa en dos medidas objetivas, tomadas en el mismo equipo (Windows con Git Bash):
+
+- **Velocidad de ejecución:** cuánto tiempo añade el gestor a la orden que ejecuta por dentro.
+- **Velocidad de instalación:** cuánto tarda en instalarse la herramienta desde cero con su método habitual.
+
+## Método de medición
+
+En todos los gestores, la tarea `check` ejecuta la misma orden, que comprueba la sintaxis de los ficheros Go sin compilarlos:
+
+`gofmt -e . > /dev/null`
+
+**Ejecución.** Se ha usado `hyperfine` para comparar cada tarea con la orden que ejecuta por dentro:
+
+`hyperfine -N --warmup 5 --min-runs 50 'gofmt -e .' '<gestor> check'`
+
+- Se hacen 5 ejecuciones de calentamiento y al menos 50 ejecuciones medidas.
+- La opción `-N` lanza las órdenes sin una shell intermedia, así que los tiempos no incluyen el arranque de la shell.
+- La orden de referencia no lleva `> /dev/null` porque `hyperfine` ya descarta la salida por defecto.
+- La diferencia entre las dos medias es el tiempo que añade el gestor.
+
+**Instalación.** Se ha medido con `time`, partiendo de que la herramienta no estaba instalada. Solo se tiene en cuenta el tiempo `real`, porque `user` y `sys` no incluyen el tiempo de los procesos de Windows que lanzan las instalaciones.
+
+## Resultados
+
+### GNU Make
+
+Versión 3.81, instalada con `winget install --id GnuWin32.Make -e`, que descarga el instalador ya compilado (3,22 MB). En este caso no se añade solo al PATH y hay que añadirlo a mano.
+
+**Ejecución:** `make check` tarda de media 139,1 ms ± 5,1 ms, y la orden directa `gofmt -e .` tarda 37,1 ms ± 2,2 ms. Make añade unos 102 ms, así que es 3,7 veces más lento que la orden sin gestor.
+
+![Ejecución de Make](../media/make-ejecucion.png)
+
+**Instalación:** 9,4 s.
+
+![Instalación de Make](../media/make-instalacion.png)
+
+### Just
+
+Versión 1.59.0, instalada con `winget install --id Casey.Just -e`, que descarga el binario ya compilado (2,18 MB) y lo añade al PATH automáticamente.
+
+**Ejecución:** `just check` tarda de media 126,4 ms ± 3,8 ms, y la orden directa tarda 36,8 ms ± 1,8 ms. Just añade unos 90 ms, así que es 3,4 veces más lento que la orden sin gestor.
+
+![Ejecución de Just](../media/just-ejecucion.png)
+
+**Instalación:** 5,5 s.
+
+![Instalación de Just](../media/just-instalacion.png)
+
+### Mage
+
+Versión 1.17.2, instalada con `go install github.com/magefile/mage@latest`, que descarga el código fuente y lo compila en el equipo. Las tareas se escriben en Go, en el fichero `magefile.go`.
+
+**Ejecución:** `mage check` tarda de media 838,0 ms ± 82,3 ms, y la orden directa tarda 35,5 ms ± 1,9 ms. Mage añade unos 803 ms, así que es 23,6 veces más lento que la orden sin gestor. Además, sus tiempos varían bastante más que los de Make y Just.
+
+![Ejecución de Mage](../media/mage-ejecucion.png)
+
+**Instalación:** 13,2 s.
+
+![Instalación de Mage](../media/mage-instalacion.png)
+
+### Mise
+
+Versión 2026.11.2, instalada con `winget install jdx.mise`, que descarga el binario ya compilado (81,6 MB). Las tareas se definen en el fichero `mise.toml`.
+
+**Ejecución:** `mise run check` tarda de media 360,2 ms ± 40,0 ms, y la orden directa tarda 53,0 ms ± 4,1 ms. mise añade unos 307 ms, así que es 6,8 veces más lento que la orden sin gestor.
+
+![Ejecución de mise](../media/mise-ejecucion.png)
+
+**Instalación:** 27,2 s.
+
+![Instalación de mise](../media/mise-instalacion.png)
+
+### Tusk
+
+Versión 0.8.1, instalada con `go install github.com/rliebz/tusk@latest`, que descarga el código fuente y sus dependencias y lo compila en el equipo. Las tareas se definen en el fichero `tusk.yml`.
+
+**Ejecución:** `tusk check` tarda de media 331,0 ms ± 61,9 ms, y la orden directa tarda 50,3 ms ± 2,6 ms. tusk añade unos 281 ms, así que es 6,6 veces más lento que la orden sin gestor.
+
+![Ejecución de tusk](../media/tusk-ejecucion.png)
+
+**Instalación:** 13,0 s.
+
+![Instalación de tusk](../media/tusk-instalacion.png)
+
+
+## Elección final
+
+Se elige **Just** como gestor de tareas de ApiRed, porque es el que mejor resultado da en los dos criterios:
+
+- **Ejecución:** es el que menos tiempo añade a la orden (unos 90 ms), por delante de Make (unos 102 ms), tusk (unos 281 ms), mise (unos 307 ms) y Mage (unos 803 ms).
+- **Instalación:** es el más rápido de instalar (5,5 s), por delante de Make (9,4 s), tusk (13,0 s), Mage (13,2 s) y mise (27,2 s).
+
+Make y Just están muy cerca, con unos 12 ms de diferencia al ejecutar y unos 4 s al instalar, pero Just gana en las dos medidas. Además, se añade al PATH automáticamente al instalarlo, cosa que Make no hace. tusk y mise añaden alrededor de 300 ms en cada ejecución, unas tres veces más que Just. mise es además el más lento de instalar, por el tamaño de su descarga (81,6 MB). Mage queda último en ejecución, con unos 800 ms por tarea.
