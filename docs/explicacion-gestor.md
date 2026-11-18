@@ -11,6 +11,7 @@ Se han comparado los siguientes gestores de tareas:
 - GNU Make
 - Just
 - Mage
+- Mise
 
 ## Criterios
 
@@ -73,6 +74,18 @@ Versión 1.17.2, instalada con `go install github.com/magefile/mage@latest`, que
 **Instalación:** 13,2 s.
 
 ![Instalación de Mage](../media/mage-instalacion.png)
+
+### Mise
+
+Versión 2026.11.2, instalada con `winget install jdx.mise`, que descarga el binario ya compilado (81,6 MB). Las tareas se definen en el fichero `mise.toml`.
+
+**Ejecución:** `mise run check` tarda de media 360,2 ms ± 40,0 ms, y la orden directa tarda 53,0 ms ± 4,1 ms. mise añade unos 307 ms, así que es 6,8 veces más lento que la orden sin gestor.
+
+![Ejecución de mise](../media/mise-ejecucion.png)
+
+**Instalación:** 27,2 s.
+
+![Instalación de mise](../media/mise-instalacion.png)
 
 
 ## Elección final
