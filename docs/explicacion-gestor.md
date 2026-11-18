@@ -105,7 +105,7 @@ Versión 0.8.1, instalada con `go install github.com/rliebz/tusk@latest`, que de
 
 Se elige **Just** como gestor de tareas de ApiRed, porque es el que mejor resultado da en los dos criterios:
 
-- **Ejecución:** es el que menos tiempo añade a la orden (unos 90 ms), por delante de Make (unos 102 ms). Mage (unos 803 ms) y Task (unos 1966 ms) quedan muy por detrás.
-- **Instalación:** es el más rápido de instalar (5,5 s), por delante de Make (9,4 s), Mage (13,2 s) y Task (95,9 s).
+- **Ejecución:** es el que menos tiempo añade a la orden (unos 90 ms), por delante de Make (unos 102 ms), tusk (unos 281 ms), mise (unos 307 ms) y Mage (unos 803 ms).
+- **Instalación:** es el más rápido de instalar (5,5 s), por delante de Make (9,4 s), tusk (13,0 s), Mage (13,2 s) y mise (27,2 s).
 
-Make y Just están muy cerca, con unos 12 ms de diferencia al ejecutar y unos 4 s al instalar, pero Just gana en las dos medidas. Además, se añade al PATH automáticamente al instalarlo, cosa que Make no hace. Mage y Task se descartan porque son claramente más lentos en las dos medidas: se compilan desde el código fuente al instalarlos y añaden mucho tiempo en cada ejecución.
+Make y Just están muy cerca, con unos 12 ms de diferencia al ejecutar y unos 4 s al instalar, pero Just gana en las dos medidas. Además, se añade al PATH automáticamente al instalarlo, cosa que Make no hace. tusk y mise añaden alrededor de 300 ms en cada ejecución, unas tres veces más que Just. mise es además el más lento de instalar, por el tamaño de su descarga (81,6 MB). Mage queda último en ejecución, con unos 800 ms por tarea.
