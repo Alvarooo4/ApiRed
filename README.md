@@ -55,4 +55,23 @@ Toda la documentación sobre el diseño del PMV y la planificación del proyecto
 ## Objetivo 2: Modelado del dominio
 La implementación del modelo puede encontrarse en el siguiente directorio:
 
-* [Implementación del modelo](docs/internal/modelo)
+* [Implementación del modelo](internal/bioma)
+
+## Gestión de dependencias
+
+Las dependencias del proyecto se gestionan con **Go Modules**, el sistema estándar de Go. El fichero `go.mod` indica el módulo y la versión de Go, y en él se registrarán las bibliotecas externas que el proyecto necesite. No hace falta ninguna herramienta externa: basta con la propia orden `go`.
+
+## Automatización de Operaciones
+
+Las tareas del proyecto se automatizan con **Just**. La comparativa con otras alternativas y la justificación de la elección están en [docs/explicacion-gestor.md](docs/explicacion-gestor.md).
+
+* Instalar las dependencias:
+  ```bash
+  just install
+  ```
+
+* Comprobar la sintaxis de los ficheros fuente:
+  ```bash
+  just check
+  ```
+
