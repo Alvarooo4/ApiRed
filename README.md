@@ -75,3 +75,7 @@ Las tareas del proyecto se automatizan con **Just**. La comparativa con otras al
   just check
   ```
 
+* Ejecutar los tests:
+  ```bash
+  just test
+  ```

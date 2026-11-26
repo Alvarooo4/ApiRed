@@ -4,3 +4,5 @@ entidad: internal/bioma/api_red.go
 automatizar:
   fichero: justfile
   orden: just
+
+test: internal/bioma/coordenada_test.go
